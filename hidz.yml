@@ -1,0 +1,67 @@
+name:
+  x: .35in
+  y: .35in
+  width: 2.05in
+  height: .15in
+  align: left
+  valign: middle
+  font_size: 11
+
+art:
+  x: .3in
+  y: .55in
+  width: 2.15in
+  height: 1.45in
+  radius: 25
+
+art-back:
+  x: .275in
+  y: .275in
+  width: 2.2in
+  height: 2.2in
+  radius: 25
+
+card-type:
+  x: .35in
+  y: 2.025in
+  width: 2.05in
+  height: .15in
+  align: left
+  valign: middle
+  font_size: 11
+
+desc-text:
+  x: .35in
+  y: 2.25in
+  width: 2.05in
+  height: 1.15in
+  valign: top
+  align: left
+  font_size: 10
+
+desc-back:
+  x: .3in
+  y: 2.2in
+  width: 2.15in
+  height: 1.25in
+  radius: 25
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: .25in
+  y: .25in
+  width: 2.25in
+  height: 3.25in
+  radius: 16
+  dash: 3 3
+  color: 'white'
+
+# The "cut line", without rounded corners
+cut:
+  x: .125in
+  y: .125in
+  width: 2.5in
+  height: 3.5in
+
+# 75 = .25
+# 37.5 = .125
