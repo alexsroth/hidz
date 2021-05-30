@@ -5,7 +5,8 @@ name:
   height: .15in
   align: left
   valign: middle
-  font_size: 11
+  font_size: 10
+  font: 'Josefin Sans SemiBold'
 
 art:
   x: .3in
@@ -28,7 +29,8 @@ card-type:
   height: .15in
   align: left
   valign: middle
-  font_size: 11
+  font_size: 9
+  font: 'Josefin Sans Medium Italic'
 
 desc-text:
   x: .35in
@@ -37,7 +39,9 @@ desc-text:
   height: 1.15in
   valign: top
   align: left
-  font_size: 10
+  font_size: 9
+  #font: 'Josefin Sans Light'
+  font: 'Timeless Regular'
 
 desc-back:
   x: .3in
@@ -52,9 +56,23 @@ safe:
   y: .25in
   width: 2.25in
   height: 3.25in
-  radius: 16
-  dash: 3 3
-  color: 'white'
+  radius: 25
+ # dash: 3 3
+creature:
+  extends: safe
+  fill_color: '#395354'
+substance:
+  extends: safe
+  fill_color: '#C58B51'
+event:
+  extends: safe
+  fill_color: '#764E93'
+place:
+  extends: safe
+  fill_color: '#587A56'
+reaction:
+  extends: safe
+  fill_color: '#C03B44'
 
 # The "cut line", without rounded corners
 cut:
@@ -62,6 +80,8 @@ cut:
   y: .125in
   width: 2.5in
   height: 3.5in
+  fill_color: 'black'
+  radius: 25
 
 # 75 = .25
 # 37.5 = .125

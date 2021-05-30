@@ -5,8 +5,8 @@ out = './deck-0.1'
 
 Squib::Deck.new cards: data['name'].size, layout: 'hidz.yml' do
   background color: 'white'
-  rect layout: 'cut', fill_color: '#230602' # cut line as defined by TheGameCrafter
-  rect layout: 'safe', fill_color: 'white' # safe zone as defined by TheGameCrafter
+  rect layout: 'cut' 
+  rect layout: data['category']
   rect layout: 'art-back', fill_color: 'black'
   text str: data['name'], layout: 'name', color: 'white'
   rect layout: 'art', fill_color: 'white'
@@ -17,6 +17,6 @@ Squib::Deck.new cards: data['name'].size, layout: 'hidz.yml' do
   # ext str: Time.now, layout: 'credits'
 
   save_png dir: out # prefix: '01_hello_rb'
-  save_pdf trim: 37.5, dir: out, file: 'deck.pdf'
+  save_pdf trim: 37.5, gap: 2, dir: out, file: 'deck.pdf'
 
 end

@@ -1,4 +1,14 @@
-name,desc,card-type
-"introducing ""No""","People ask me things, I tell them no. Who am I? NO!",core creature - alex
-bigger the hoops,bigger the hoe!,core creature - jesse
-zweeba,zwaaba,""
+name,desc,card-type,category
+"Introducing ""No""","People ask me things, I tell them no. Who am I? NO!",Core Creature - Alex,creature
+Sniffing Keys,"damn i want more. 
+
+raise creature's energy by 3 for 3 turns. after, lower energy by 2 for 2 turns.",Substance - Upper,substance
+Labor Day in LA,"so what if it never happened, there's still time. 
+
+search the deck for an Los Angeles place card. Add it to your hand and shuffle the deck.",Event,event
+Los Angeles ,"it's not so bad in LA. 
+
+any cannabis substance cards cost 2 less energy to use.",Place,place
+WTF did you just say to me,"you frompy bitch.
+
+block creature from coming into a player's basement, send it to the afterlife",Reaction,reaction
