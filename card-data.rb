@@ -9,6 +9,8 @@ pcsv = session.spreadsheet_by_key("1SNE90vRWNPtHUluWW4ORvCbJrZRazUNs1M4lboqxqJg"
 
 CSV.open("card-data.csv", "w") do |csv|
   pcsv.each do |info|
-    csv << info
+    csv << info.map do |col|
+      col.respond_to?(:empty?) && col.empty? ? nil : col
+    end
   end
 end

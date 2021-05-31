@@ -7,6 +7,7 @@ name:
   valign: middle
   font_size: 10
   font: 'Josefin Sans SemiBold'
+  ellipsize: :autoscale
 
 art:
   x: .3in
@@ -32,22 +33,44 @@ card-type:
   font_size: 9
   font: 'Josefin Sans Medium Italic'
 
+points:
+  x: 2.15in
+  y: 3.22in
+e-num:
+  extends: points
+  width: .25in
+  height: .25in
+  font_size: 10
+  font: 'Josefin Sans Regular'
+  align: center
+  valign: middle
+energy:
+  extends: points
+  file: energy.svg
+spend:
+  extends: points
+  file: spend.svg
+place:
+  extends: points
+  file: spend.svg
+
 desc-text:
   x: .35in
   y: 2.25in
   width: 2.05in
-  height: 1.15in
+  height: 1in
   valign: top
   align: left
   font_size: 9
   #font: 'Josefin Sans Light'
   font: 'Timeless Regular'
+  ellipsize: :autoscale
 
 desc-back:
   x: .3in
   y: 2.2in
   width: 2.15in
-  height: 1.25in
+  height: 1.1in
   radius: 25
 
 # The "safe zone" as defined by TheGameCrafter poker cards

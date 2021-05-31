@@ -1,14 +1,16 @@
-name,desc,card-type,category
-"Introducing ""No""","People ask me things, I tell them no. Who am I? NO!",Core Creature - Alex,creature
+name,desc,card-type,category,point-back,points
+"Introducing ""No""","People ask me things, I tell them no. Who am I? NO!",Core Creature - Alex,creature,energy,4
 Sniffing Keys,"damn i want more. 
 
-raise creature's energy by 3 for 3 turns. after, lower energy by 2 for 2 turns.",Substance - Upper,substance
+raise creature's energy by 3 for 3 turns. after, lower energy by 2 for 2 turns.",Substance - Upper,substance,spend,-3
 Labor Day in LA,"so what if it never happened, there's still time. 
 
-search the deck for an Los Angeles place card. Add it to your hand and shuffle the deck.",Event,event
+search the deck for an Los Angeles place card. Add it to your hand and shuffle the deck.",Event,event,spend,-10
 Los Angeles ,"it's not so bad in LA. 
 
-any cannabis substance cards cost 2 less energy to use.",Place,place
+any cannabis substance cards cost 2 less energy to use.",Place,place,place,
 WTF did you just say to me,"you frompy bitch.
 
-block creature from coming into a player's basement, send it to the afterlife",Reaction,reaction
+block creature from coming into a player's basement, send it to the afterlife
+
+let's just keep it going to see how long these can get. the goal is to test out the elipsize method here, so just keep on typing, keep on talking, JUST KEEP SWIMMING",Reaction,reaction,spend,-2
