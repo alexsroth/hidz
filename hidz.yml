@@ -1,7 +1,7 @@
 name:
   x: .35in
   y: .35in
-  width: 2.05in
+  width: 1.84in
   height: .15in
   align: left
   valign: middle
@@ -34,25 +34,30 @@ card-type:
   font: 'Josefin Sans Medium Italic'
 
 points:
-  x: 2.15in
-  y: 3.22in
+  x: 2.2in
+  y: .28in
+  width: .26in
+  height: .26in
 e-num:
-  extends: points
-  width: .25in
-  height: .25in
+  x: 2.24in
+  y: .32in
+  width: .18in
+  height: .18in
   font_size: 10
   font: 'Josefin Sans Regular'
   align: center
   valign: middle
+  ellipsize: :autoscale
+permanent:
+  extends: points
+  file: permanent.svg
 energy:
   extends: points
   file: energy.svg
 spend:
   extends: points
   file: spend.svg
-place:
-  extends: points
-  file: spend.svg
+
 
 desc-text:
   x: .35in
@@ -73,14 +78,12 @@ desc-back:
   height: 1.1in
   radius: 25
 
-# The "safe zone" as defined by TheGameCrafter poker cards
 safe:
   x: .25in
   y: .25in
   width: 2.25in
   height: 3.25in
   radius: 25
- # dash: 3 3
 creature:
   extends: safe
   fill_color: '#395354'
@@ -90,14 +93,13 @@ substance:
 event:
   extends: safe
   fill_color: '#764E93'
-place:
+location:
   extends: safe
   fill_color: '#587A56'
 reaction:
   extends: safe
   fill_color: '#C03B44'
 
-# The "cut line", without rounded corners
 cut:
   x: .125in
   y: .125in

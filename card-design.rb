@@ -15,8 +15,8 @@ Squib::Deck.new cards: data['name'].size, layout: 'hidz.yml' do
   rect layout: 'desc-back', fill_color: '#C5C5C5', stroke_width: 0 
   text str: data['desc'], layout: 'desc-text'
   svg layout: data['point-back']
-  svg file: 'place.svg', x: 650, y: 971, width: 65, height: 65
   text str: data['points'], layout: 'e-num', color: 'white'
+  # rect layout: 'e-num', fill_color: 'white'
   
   save_png dir: out # prefix: '01_hello_rb'
   save_pdf dir: out, file: 'deck.pdf', trim: 37.5, gap: 2
