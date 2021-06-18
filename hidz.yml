@@ -77,6 +77,7 @@ desc-back:
   width: 2.15in
   height: 1.1in
   radius: 25
+  stroke_width: 0 
 
 safe:
   x: .25in

@@ -56,3 +56,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 client_secret.json
 Gemfile.lock
+card-data.csv
+/deck-0.1/
+/test-0.1/
