@@ -1,7 +1,7 @@
 require 'squib'
 
 data = Squib.csv file: 'card-data.csv'
-out = './test-0.1'
+out = './deck/dev'
 
 
 Squib::Deck.new cards: data['name'].size, layout: 'hidz.yml' do
@@ -18,7 +18,7 @@ Squib::Deck.new cards: data['name'].size, layout: 'hidz.yml' do
   text str: data['points'], layout: 'e-num', color: 'white'
   # rect layout: 'e-num', fill_color: 'white'
   
-  save_png dir: out # prefix: '01_hello_rb'
-  save_pdf dir: out, file: 'deck.pdf', trim: 37.5, gap: 2
+  save_png dir: out, prefix: 'dev-'
+  save_pdf dir: out, file: 'dev-deck.pdf', trim: 37.5, gap: 2
 
 end
