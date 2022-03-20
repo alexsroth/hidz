@@ -58,3 +58,4 @@ client_secret.json
 Gemfile.lock
 card-data.csv
 /deck
+.DS_Store
