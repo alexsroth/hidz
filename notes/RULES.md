@@ -18,7 +18,7 @@ Each creature card has energy (described in table below). simply put, to win the
 
 # Gameplay
 
-There are 4 phases to a turn
+There are 5 phases to a turn
 ### 1. Energy Evalution Phase
   - total your unspent energy -- if you have 21 or more, you win!
 ### 2. Upkeep Phase 
@@ -28,6 +28,8 @@ There are 4 phases to a turn
     - example: if someone used a substance card on one of your creatures, when it becomes your turn, you are in turn 1 of the effect. if the effect last 3 turns, you will have to wait for the 4th turn before you can remove the effect. 
 ### 3. Draw Phase
   - Draw a card
+  - There is a hand limit of 7 cards
+  - If you have a surplus of cards, you will need to discard durning the discard phase
 ### 4. Main Phase
   - You are able to play 1 creature per turn during this phase, with one exception (location cards)
     - When you play a new creatures, it is disoriented and can't use it's energy until its knows its way around your basement, next turn
@@ -35,11 +37,11 @@ There are 4 phases to a turn
     - a creatures energy cannot be spent on 2 different cards, and does not roll over
     - example: i have a creature with 4 energy, and one with 2 energy. if i have an event that cost 3 energy, i can use my 4 energy creature to play the event, and even though I have 1 more energy, it cannot be spent on other cards
   - Location Cards take the whole show on the road, which is so tiring and chaotic, that if you want to play one, you need to use the energy from all your creatures, and you can't play a new one that turn. You basically skip your turn.
+### 5. Discard Phase
+  - if you have more than 7 cards, you will need to discard until you have 7.
 
 A reaction card can be played by anyone, at anytime, as long as they have the energy to spend on it
 
 # Scoring
 
 unspent energy is tallied at the start of your turn, before all your energy is restored
-
-
