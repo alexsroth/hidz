@@ -1,12 +1,10 @@
 # Intro
 
-What is this game about? How many players?
-
-This is a strategic card game, 
+This is a strategic card game, played from a single large deck. the mechanics are similar to the unicorn game and magic the gathering
 
 # Objective
 
-What is the object of the game?
+Each creature card has energy (described in table below). simply put, to win the game, your creatures need a combined unspent energy of 21.
 
 # Components
 
@@ -20,10 +18,27 @@ What is the object of the game?
 
 # Gameplay
 
-What does each turn look like? Describe a turn. 
+There are __ phases to a turn
+1. Energy Evalution Phase
+  - total your unspent energy -- if you have 21 or more, you win!
+2. Upkeep Phase 
+  - evaluate any "at the beginning of your turn" effects
+  - all your creatures regain their energy
+  - advance any turn number count you have 
+    - example: if someone used a substance card on one of your creatures, when it becomes your turn, you are in turn 1 of the effect. if the effect last 3 turns, you will have to wait for the 4th turn before you can remove the effect. 
+3. Draw Phase
+  - Draw a card
+4. Main Phase
+  - You are able to play 1 creature per turn during this phase, with one exception (location cards)
+    - When you play a new creatures, it is disoriented and can't use it's energy until its knows its way around your basement, next turn
+  - You are able to play any number of substance and event cards which you can afford
+    - a creatures energy cannot be spent on 2 different cards, and does not roll over
+    - example: i have a creature with 4 energy, and one with 2 energy. if i have an event that cost 3 energy, i can use my 4 energy creature to play the event, and even though I have 1 more energy, it cannot be spent on other cards
+  - Location Cards take the whole show on the road, which is so tiring and chaotic, that if you want to play one, you need to use the energy from all your creatures, and you can't play a new one that turn. You basically skip your turn.
+A reaction card can be played by anyone, at anytime, as long as they have the energy to spend on it
 
 # Scoring
 
-How is victory assigned?
+unspent energy is tallied at the start of your turn, before all your energy is restored
 
 
