@@ -63,12 +63,24 @@ desc-text:
   x: .35in
   y: 2.25in
   width: 2.05in
-  height: 1in
+  height: .65in
   valign: top
   align: left
   font_size: 9
   #font: 'Josefin Sans Light'
   font: 'Timeless Regular'
+  ellipsize: :autoscale
+
+flav-text:
+  x: .35in
+  y: 2.95in
+  width: 2.05in
+  height: .3in
+  valign: bottom
+  align: left
+  font_size: 7
+  #font: 'Josefin Sans Light'
+  font: 'Timeless Italic'
   ellipsize: :autoscale
 
 desc-back:

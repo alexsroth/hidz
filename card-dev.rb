@@ -13,7 +13,9 @@ Squib::Deck.new cards: data['name'].size, layout: 'hidz.yml' do
   rect layout: 'art'
   text str: data['card-type'], layout: 'card-type', color: 'black'
   rect layout: 'desc-back', fill_color: 'white', stroke_width: 1 
-  text str: data['desc'], layout: 'desc-text'
+ # text str: data['desc'], layout: 'desc-text'
+  text str: data['effect'], layout: 'desc-text'
+  text str: data['flavor'], layout: 'flav-text'
   svg layout: data['point-back']
   text str: data['points'], layout: 'e-num', color: 'white'
   # rect layout: 'e-num', fill_color: 'white'
